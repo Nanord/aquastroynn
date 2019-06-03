@@ -1,9 +1,43 @@
 @charset "UTF-8";
 @import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
 @import url('//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css');
+
+@media screen and (min-width: 768px) {
+  .nav-center {
+    position: absolute;
+    left: 120px;
+    right: 120px;
+    top: 0;
+    height: 50px;
+    text-align: center;
+  }
+  .nav-center .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+}
+
 .navbar-nav {
   margin: -4px -15px;
   color: #FFFFFF;
+}
+
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
 }
 
 .dropdown-style {
@@ -45,7 +79,7 @@ body {
   padding-bottom: 20px;
 }
 .header .contacts {
-  padding-top: 5px;
+  padding-top: 20px;
 }
 .header .contacts p a {
   color: #005c00;

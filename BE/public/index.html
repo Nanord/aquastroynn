@@ -8,11 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-
-
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script src="./js/fa.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.min.css">
 
 </head>
 <body class="table-row">
@@ -40,7 +36,7 @@
                         </a>
                     </p>
                     <p>
-                        <a href="https://vk.com/" terget="_blank" style="color: #195593">
+                        <a href="https://vk.com/" style="color: #195593" target="_blank">
                             <i class="fa fa-vk" aria-hidden="true"></i>
                                 Мы в контакте
                         </a>
@@ -51,7 +47,7 @@
     </div>
 </section>
 
-<nav class="navbar-style navbar-default-style navbar navbar-default sticky-menu" style="margin-top: 50px; margin-bottom: 60px; font-size: 17px; background-color: #0882CE; border-color: #0F53A2;">
+<nav class="navbar-style navbar-default-style navbar navbar-default" style="margin-top: 50px; margin-bottom: 60px; font-size: 16px; background-color: #0882CE; border-color: #0F53A2; position: -webkit-sticky; position: sticky; top: 0;">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu">
@@ -62,50 +58,77 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="top-menu">
-            <ul class="nav navbar-nav">
-                <li class="current">
-                    <a class="nav-item-style"  href="#" title="#" data-toggle="dropdown" onclick="location.href = this.href">
-                        <i class="fa fa-home fa-fw"></i>
-                    </a>
-                </li>
-                <li class="dropdown first">
-                    <a class="nav-item-style" href="#" title="О компании" onclick="location.href = this.href" data-toggle="dropdown">О компании</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-toggle dropdown-style" href="#" title="О компании" data-toggle="dropdown" onclick="location.href = this.href">О компании</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-toggle dropdown-style" href="#" title="Партнеры" data-toggle="dropdown" onclick="location.href = this.href">Партнеры</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a  href="#" title="Услуги" onclick="location.href = this.href" data-toggle="dropdown" class="nav-item-style dropdown-toggle">Услуги</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a  href="#" title="Строительство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство</a>
-                        </li>
-                        <li>
-                            <a href="#" title="Ладшафтный дизайн" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Ладшафтный дизайн</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" title="Портфолио" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Портфолио</a>
-                </li>
-                <li>
-                    <a href="#" title="Отзывы" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Отзывы</a>
-                </li>
-                <li class="last">
-                    <a href="#" title="Контакты" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Контакты</a>
-                </li>
-            </ul>
+            <div class="nav-center">
+                <ul class="nav navbar-nav">
+                    <li class="current">
+                        <a class="nav-item-style"  href="#" title="#" data-toggle="dropdown" onclick="location.href = this.href">
+                            <i class="fa fa-home fa-fw"></i>
+                        </a>
+                    </li>
+                    <li class="first">
+                        <a class="nav-item-style" href="#" title="О компании" onclick="location.href = this.href" data-toggle="dropdown">О компании</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" title="Портфолио" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Портфолио</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a  href="#" title="Строительство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Ладшафтный дизайн" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Ладшафтный дизайн</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Специальные проекты" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Специальные проекты</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" title="Отзывы" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Отзывы</a>
+                    </li>
+                    <li class="last">
+                        <a href="#" title="Контакты" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Контакты</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
 
+<div class="container">
+    <h1 class="h3 text-center my-4" style="font-size: 26px">Оказываемые услуги:</h1>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="./image/slide_1.JPG">
+                <img class="img-responsive" src="./image/slide_1_min.JPG" alt="">
+                <p style="color: #298D38; text-align: center">Бани</p>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="./image/slide_3.JPG">
+                <img class="img-responsive" src="./image/slide_3_min.JPG" alt="">
+                <p style="color: #298D38; text-align: center">Дома</p>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="./image/slide_4.JPG">
+                <img class="img-responsive" src="./image/slide_4_min.JPG" alt="">
+                <p style="color: #298D38; text-align: center">Ландшафтные работы</p>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="./image/slide_2.JPG">
+                <img class="img-responsive" src="./image/slide_2_min.JPG" alt="">
+                <p style="color: #298D38; text-align: center">Специальные проекты</p>
+            </a>
+        </div>
+    </div>
+</div>
 
-<section class="block_1">
+
+
+
+
+<!--<section class="block_1">
     <div class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="item active"><img src="./image/slide_4.jpg" alt=""></div>
@@ -114,7 +137,7 @@
             <div class="item"><img src="./image/slide_1.JPG" alt=""></div>
         </div>
     </div>
-</section>
+</section>-->
 
 
 <section class="footer">
@@ -123,15 +146,20 @@
         <div class="row">
             <!--class="col-xs-12 col-sm-12 col-md-2 col-lg-2"-->
             <div class="col-sm-12 col-md-12 col-lg-2">
-                <div class="logo"><a href=""><img src="./image/logo/logo.png" alt=""></a></div>
+                <div class="logo">
+                    <a href="">
+                        <img src="./image/logo/logo.png" alt="">
+                    </a>
+                </div>
             </div>
             <!--class="col-xs-12 col-sm-12 col-md-7 col-lg-7"-->
             <div class="col-sm-12 col-md-12 col-lg-7">
                 <div class="text">ООО «Авквастрой-НН»</div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3">
-                <div class="" style="padding-top:100px; text-align: center;">Created by &copy; Nanord</div>
-                <div class="" style="text-align: center;">2019</div>
+                <div class="" style="padding-top:100px; text-align: center;">
+                    <a href="https://github.com/Nanord" style="color: black" target="_blank">Created by &copy; Nanord <br> 2019</a>
+                </div>
             </div>
         </div>
 
@@ -140,4 +168,14 @@
 </section>
 
 </body>
+
+<!-- fa -->
+<script type="text/javascript" src="./js/fa.js"></script>
+<!-- jQuery -->
+<script src="./js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="./js/bootstrap.min.js"></script>
+<!-- fancyBox JS -->
+<script src="./js/jquery.fancybox.min.js"></script>
+
 </html>
