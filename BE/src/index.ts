@@ -4,8 +4,6 @@ import compression, { filter } from 'compression';
 import express, {response} from 'express';
 import bodyParser from 'body-parser';
 
-let currentRoot = process.execPath;
-
 /**
  * HTTP
  * SERVER
@@ -13,11 +11,11 @@ let currentRoot = process.execPath;
 const app = express();
 
 app.use((req, res, next) => {
-/*    res.header("x-powered-by", "SMORODINA");
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Origin", process.env.SMORODINA_ALLOW_ORIGIN);
-    res.header("Access-Control-Allow-Methods", "GET,POST");
-    res.header("Access-Control-Allow-Headers", "Content-Type");*/
+    /*    res.header("x-powered-by", "SMORODINA");
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Origin", process.env.SMORODINA_ALLOW_ORIGIN);
+        res.header("Access-Control-Allow-Methods", "GET,POST");
+        res.header("Access-Control-Allow-Headers", "Content-Type");*/
 
     next();
 });
@@ -50,8 +48,8 @@ app.all("/ok", (req, res) => res.send("OK"));
 
 const server = require('http').Server(app);
 
-server.listen(8080);
+server.listen(8081);
 /**
  * Приветсвие
  */
-console.log(`LISTEN ${process.env.SMORODINA_EPD_PORT}`);
+console.log(`LISTEN ${8081}`);

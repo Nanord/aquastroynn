@@ -1,7 +1,6 @@
+/*
 import Service from '../Service';
-import Logger from "../../utils/logger/Logger";
-import Redis from "../../utils/Redis";
-import Sod from "../../utils/Sod";
+import Logger from "../../utils/logger/Logger"
 
 export default new Service({
     name: "test",
@@ -29,4 +28,4 @@ export default new Service({
             return SendError(500, error.err);
         }
     }
-});
+});*/
