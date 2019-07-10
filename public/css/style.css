@@ -2,6 +2,20 @@
 @import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
 @import url('//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css');
 
+.advantages-text {
+  margin-top: 20px;
+}
+
+.body-niz {
+  background: url('../image/img_niz.jpg') center no-repeat;
+  background-size: cover
+}
+
+.body-back {
+  background: url('../image/bg_block_4.jpg') center no-repeat;
+  background-size: cover
+}
+
 .wp-block {
     margin: 0 0 15px 0;
     -webkit-transition: all .3s linear;
@@ -145,10 +159,10 @@ body {
   height: 125px;
 }
 .header .logo {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .header .text {
-  color: #163A28;
+  color: #074a02;
   font-size: 30px;
   font-weight: 300;
   text-align: center;
@@ -159,7 +173,7 @@ body {
   padding-top: 20px;
 }
 .header .contacts p a {
-  color: #005c00;
+  color: #074a02;
   text-decoration: none;
 }
 .header .contacts p a i {
@@ -175,19 +189,19 @@ body {
   border: none;
 }
 .navbar-default-style .current a {
-  background: #195593;
+  background: #427065;
   color: #FFFFFF;
   font-size: 23px;
 }
 .navbar-default-style .current a:focus,
 .navbar-default-style .current a:hover {
-  background: #195593;
-  color:#FFFFFF !important;
+  background: #427065;
+  color:#000000!important;
 }
 .navbar-default-style .navbar-nav > li:hover > .nav-item-style,
 .navbar-default-style .navbar-nav > li:hover > i {
   color: #FFFFFF !important;
-  background-color: #195593 !important;
+  background-color: #427065 !important;
 }
 
 .navbar-default-style .navbar-nav li .nav-item-style {
@@ -203,16 +217,16 @@ body {
 
 .navbar-default-style .current .dropdown-menu a:focus,
 .navbar-default-style .current .dropdown-menu a:hover{
-    background-color: #298D38 !important;
+    background-color: #cacaca !important;
 }
 
 .navbar-default-style .navbar-nav .dropdown-menu li a {
   font-size: 14px;
   text-decoration: none;
 }
-.navbar-default-style .navbar-nav .open a:focus,
+.navbar-default-style .navbar-nav  .open a:focus,
 .navbar-default-style .navbar-nav .open a:hover {
-  background: #195593;
+  background: #cacaca;
   color: white;
 }
 .dropdown:hover .dropdown-menu {
@@ -222,14 +236,14 @@ body {
   border-top: 10px solid #73B42C;
 }
 .slider_wrapper {
-  background: url('/assets/img/bg_block_4.jpg') center no-repeat;
+  background: url('../image/bg_block_4.jpg') center no-repeat;
   background-size: cover;
-  border-top: 1px solid white;
-  height: 750px;
+  border-top: 0px solid white;
+  height: 500px;
   text-align: center;
 }
 .slider_wrapper .row:nth-child(1) {
-  background: url('/assets/img/slider_bg.png') center no-repeat;
+  background: url('../image/slider_bg.png') center no-repeat;
   background-size: contain;
   height: 480px;
 }
@@ -272,7 +286,7 @@ body {
   padding-top: 60px;
 }
 .block_2 {
-  background: url('/assets/img/bg_block_2_2.jpg') center no-repeat;
+  background: url('../image/bg_block_2_2.jpg') center no-repeat;
   background-size: cover;
   color: black;
   height: auto;
@@ -288,7 +302,7 @@ body {
   text-decoration: underline;
 }
 .block_3 {
-  background: url('/assets/img/bg_block_3.jpg') center no-repeat;
+  background: url('../image/bg_block_3.jpg') center no-repeat;
   background-size: cover;
   color: black;
   font-weight: bold;
@@ -300,7 +314,6 @@ body {
   font-weight: 400;
 }
 .block_4 {
-  background: url('/assets/img/bg_block_4.jpg') center no-repeat;
   background-size: cover;
   color: black;
   font-weight: bold;
@@ -330,7 +343,7 @@ body {
   font-weight: 400;
 }
 .block_6 {
-  background: url('/assets/img/bg_block_6.jpg') center no-repeat;
+  background: url('../image/bg_block_6.jpg') center no-repeat;
   background-size: cover;
   height: 858px;
 }
