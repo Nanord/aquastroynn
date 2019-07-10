@@ -1,0 +1,83 @@
+.text {
+    color: #163A28;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contacts {
+    padding-top: 45px;
+    padding-left: 15px;
+}
+
+.contacts p a {
+    color: #005c00;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-center {
+        position: absolute;
+        left: 120px;
+        right: 120px;
+        top: 0;
+        height: 50px;
+        text-align: center;
+    }
+    .nav-center .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+}
+
+.navbar-nav {
+    margin: -4px -15px;
+    color: #FFFFFF;
+}
+
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
+.dropdown-style {
+    color: white !important;
+}
+
+.navbar-default-style .navbar-nav li .nav-item-style {
+    font-size: 18px;
+    color: #FFFFFF !important;
+}
+
+.navbar-default-style {
+    background: #0882CE;
+}
+
+.navbar-default-style .navbar-nav li a {
+    font-size: 14px !important;
+    line-height: 20px;
+}
+.navbar-default-style .navbar-nav > li:hover > i {
+    color: #FFFFFF !important;
+    background-color: #195593 !important;
+}
