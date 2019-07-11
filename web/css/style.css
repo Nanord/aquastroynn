@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
-@import url('//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css');
+/*@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+@import url('//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css');*/
 
 .advantages-text {
   margin-top: 20px;
@@ -319,6 +319,7 @@ body {
   font-weight: bold;
   height: 750px;
   margin: 0 auto;
+margin-top: 170px;
 }
 .block_4 h1 {
   color: #074a02;
