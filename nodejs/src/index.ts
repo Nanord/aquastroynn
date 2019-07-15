@@ -48,8 +48,8 @@ app.all("/ok", (req, res) => res.send("OK"));
 
 const server = require('http').Server(app);
 
-server.listen(8081);
+server.listen(process.env.SMORODINA_EPD_PORT);
 /**
  * Приветсвие
  */
-console.log(`LISTEN ${8081}`);
+console.log(`LISTEN process.env.SMORODINA_EPD_PORT`);
