@@ -2,12 +2,21 @@
 /*@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
 @import url('//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css');*/
 
+table {
+  width: 300px; /* Ширина таблицы */
+  margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+td {
+  text-align: center; /* Выравниваем текст по центру ячейки */
+  padding: 2px;
+}
+
 .advantages-text {
   margin-top: 20px;
 }
 
 .body-niz {
-  background: url('../image/img_niz.jpg') center no-repeat;
+  background: url('../image/main/img_niz.jpg') center no-repeat;
   background-size: cover
 }
 
@@ -233,7 +242,7 @@ body {
   display: block;
 }
 .block_1 {
-  border-top: 10px solid #73B42C;
+  border-top: 10px solid #074a02;
 }
 .slider_wrapper {
   background: url('../image/bg_block_4.jpg') center no-repeat;
@@ -243,7 +252,7 @@ body {
   text-align: center;
 }
 .slider_wrapper .row:nth-child(1) {
-  background: url('../image/slider_bg.png') center no-repeat;
+  background: url('../image/main/slider_bg.png') center no-repeat;
   background-size: contain;
   height: 480px;
 }
@@ -302,7 +311,7 @@ body {
   text-decoration: underline;
 }
 .block_3 {
-  background: url('../image/bg_block_3.jpg') center no-repeat;
+  background: url('../image/main/bg_block_3.jpg') center no-repeat;
   background-size: cover;
   color: black;
   font-weight: bold;
@@ -2248,12 +2257,8 @@ div.user-last-order div {
   color: #FFF !important;
 }
 .btn-primary {
-  background-color: #f55a3b;
-  border-color: transparent;
-  color: #fff !important;
 }
 .btn-primary:hover {
-  background-color: #f7836c;
 }
 .btn-secondary {
   background-color: #a0d468;
