@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/jquery.fancybox.min.css">
-
+    <link rel="stylesheet" type="text/css" href="../../css/jquery.lazyloadxt.fadein.min.css">
 </head>
 <body class="table-row">
 
@@ -151,29 +151,22 @@
 </nav>
 
 <div class="container">
-    <h1 class="h3 text-center my-4" style="font-size: 26px">Строительство:</h1>
+    <h1 class="h3 text-center my-4" style="font-size: 26px">Дома:</h1>
     <br>
     <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/portfolio/дома/">
-                <img class="img-responsive" src="../../image/portfolio/дома/" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/portfolio/дома/">
-                <img class="img-responsive" src="../../image/portfolio/дома/" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/portfolio/дома/">
-                <img class="img-responsive" src="../../image/portfolio/дома/" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/portfolio/дома/">
-                <img class="img-responsive" src="../../image/portfolio/дома/" alt="">
-            </a>
-        </div>
+        <script>
+            var name="дома";
+            var count = 8;
+            var parent = document.getElementById("parent");
+            for(var i = 1; i < count+1; i++) {
+                var div = document.createElement("div");
+                div.className = "col-md-3 col-sm-6 col-xs-12 thumb";
+                div.innerHTML = "<a data-fancybox=\"gallery\" href=\"../../image/portfolio/" + name + "/" + i + ".JPG\">" +
+                    "<img class=\"img-responsive\" data-src=\"../../image/portfolio/" + name + "/" + i + ".JPG\" alt=\"\">" +
+                    "</a>";
+                parent.appendChild(div)
+            }
+        </script>
     </div>
 </div>
 
@@ -229,5 +222,7 @@
 <script src="../../js/bootstrap.min.js"></script>
 <!-- fancyBox JS -->
 <script src="../../js/jquery.fancybox.min.js"></script>
+<script src="../../js/jquery.lazyloadxt.min.js"></script>
+<script src="../../js/script.js"></script>
 
 </html>

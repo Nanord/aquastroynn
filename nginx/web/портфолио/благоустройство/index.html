@@ -151,29 +151,22 @@
 </nav>
 
 <div class="container">
-    <h1 class="h3 text-center my-4" style="font-size: 26px">Строительство:</h1>
+    <h1 class="h3 text-center my-4" style="font-size: 26px">Благоустройство:</h1>
     <br>
-    <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/slide_1.JPG">
-                <img class="img-responsive" src="../../image/slide_1_min.JPG" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/slide_3.JPG">
-                <img class="img-responsive" src="../../image/slide_3_min.JPG" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/slide_4.JPG">
-                <img class="img-responsive" src="../../image/slide_4_min.JPG" alt="">
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 thumb">
-            <a data-fancybox="gallery" href="../../image/slide_2.JPG">
-                <img class="img-responsive" src="../../image/slide_2_min.JPG" alt="">
-            </a>
-        </div>
+    <div class="row" id="parent">
+        <script>
+            var name="благоустройство";
+            var count = 37;
+            var parent = document.getElementById("parent");
+            for(var i = 1; i < count+1; i++) {
+                var div = document.createElement("div");
+                div.className = "col-md-3 col-sm-6 col-xs-12 thumb";
+                div.innerHTML = "<a data-fancybox=\"gallery\" href=\"../../image/portfolio/" + name + "/" + i + ".JPG\">" +
+                    "<img class=\"img-responsive\" data-src=\"../../image/portfolio/" + name + "/" + i + ".JPG\" alt=\"\">" +
+                    "</a>";
+                parent.appendChild(div)
+            }
+        </script>
     </div>
 </div>
 
@@ -229,5 +222,6 @@
 <script src="../../js/bootstrap.min.js"></script>
 <!-- fancyBox JS -->
 <script src="../../js/jquery.fancybox.min.js"></script>
+<script src="../../js/script.js"></script>
 
 </html>
