@@ -1,6 +1,7 @@
 (function($) {
     $.getNav = function(name, path) {
         console.log(name, path)
+        name.replace("//", "/")
         var parent = document.getElementById("nav")
         var nav = document.createElement("nav")
         nav.id = "nav_bar"
