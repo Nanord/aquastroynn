@@ -21,7 +21,7 @@
             "                <div class=\"nav-center\">\n" +
             "                    <ul class=\"nav navbar-nav\">\n" +
             "                        <li id=\"mainNav\">\n" +
-            "                            <a class=\"nav-item-style\" href=\":" + path + "/\" title=\"#\" data-toggle=\"dropdown\" onclick=\"location.href = this.href\">\n" +
+            "                            <a class=\"nav-item-style\" href=\"" + path + "\" title=\"#\" data-toggle=\"dropdown\" onclick=\"location.href = this.href\">\n" +
             "                                <i class=\"fa fa-home fa-fw\"></i>\n" +
             "                            </a>\n" +
             "                        </li>\n" +
@@ -32,7 +32,7 @@
             "                                    <a href=\"" + path + "окомпании/\" title=\"О компании\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">О компании</a>\n" +
             "                                </li>\n" +
             "                                <li>\n" +
-            "                                    <a href=\"" + path + "/окомпании/коллектив/\" title=\"Коллектив\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Коллектив</a>\n" +
+            "                                    <a href=\"" + path + "окомпании/коллектив/\" title=\"Коллектив\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Коллектив</a>\n" +
             "                                </li>\n" +
             "                                <li>\n" +
             "                                    <a href=\"" + path + "окомпании/вакансии/\" title=\"Вакансии\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Вакансии</a>\n" +
