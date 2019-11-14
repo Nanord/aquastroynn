@@ -1,176 +1,177 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
 
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style_service.css">
 
+    <link rel="stylesheet" type="text/css" href="../../css/style_price.css">
+    <style>
+        .min_nav a {
+            color: #074A02 !important;
+        }
+    </style>
 </head>
+
 <body class="table-row">
 
-<section class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="logo"><a href="/"><img src="../../image/logo/logo.png" alt=""></a></div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="text">Строительная компания:<br>ООО «Аквастрой-НН»</div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="contacts">
-                    <p>
-                        <a href="mailto:akvastroynn@mail.ru">
-                            <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                            akvastroynn@mail.ru
-                        </a></p>
-                    <p>
-                        <a href="tel:"><i class="fa fa-phone" aria-hidden="true"></i>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="logo">
+                        <a href="/"><img src="../../image/logo/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="text">Строительная компания:<br>ООО «Аквастрой-НН»</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="contacts">
+                        <p>
+                            <a href="mailto:akvastroynn@mail.ru">
+                                <i class="fa fa-envelope-open" aria-hidden="true"></i> akvastroynn@mail.ru
+                            </a>
+                        </p>
+                        <p>
+                            <a href="tel:"><i class="fa fa-phone" aria-hidden="true"></i>
                             +7 903 056-15-39
                         </a>
+                        </p>
+                        <p>
+                            <a href="https://vk.com/" target="_blank">
+                                <i class="fab fa-vk"></i> Мы в контакте
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="nav"></div>
+
+    <section id="text-font" class="content main">
+
+        <div id="mainContent" class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="min_nav">
+                        <a href="../../">Главная</a>
+                        <span style="text-decoration: none"> → </span>
+                        <a href="../">Услуги</a>
+                    </div>
+                    <span style="text-decoration: none"> → </span> Отделочные работы
+                    <br>
+                    <h1 style="text-align: center;font-weight: 600;color: #074A02;margin: 25px 0 20px 0;">Грамотные отделочные работы.<br>Искусство воплощения деталей</h1>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
+                            Расценки
+                    </button>
+                    <br>
+                    <br>
+                    <p style="font-size: 1.2em">
+                        За годы нашей работы мы накопили достаточно опыта, чтобы предложить действительно стоящую работу. Наш успех складывается из фундаментальных принципов работы с заказчиком:
                     </p>
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">Советуем лучшее</h2>
                     <p>
-                        <a href="https://vk.com/" target="_blank">
-                            <i class="fab fa-vk"></i>
-                            Мы в контакте
-                        </a>
+                        Каждый новый проект для нас – отдельная история со своими героями и нюансами. Мы всегда внимательно выслушиваем мнение и позицию клиента и стараемся предложить самое оптимальное решение, основываясь на своем опыте и профессионализме. Так вы можете без
+                        труда доверить нам как разработку концепции помещения с нуля, так и попросить доработать ваши идеи. В первом случае, мы сами предложим подходящие для вашего стиля и комфорта стройматериалы и дизайнерские идеи, а во втором случае
+                        поможем подобрать лучшее из выбранного вами и, при необходимости, скорректировать проект в лучшую сторону.
                     </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<nav class="navbar-style navbar-default-style navbar navbar-default" style="margin-top: 30px; margin-bottom: 60px; font-size: 16px; background-color:  #828282; border-color: #cacaca; position: -webkit-sticky; position: sticky; top: 0;">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">Всегда открыты для общения</h2>
+                    <p>
+                        Клиент для нас – не просто человек, который платит деньги за услуги. Делая заказ в нашей компании, вы становитесь другом большой дружной семьи компании и всегда можете рассчитывать на нашу поддержку или совет. Мы всегда с радостью принимаем обратную связь
+                        от клиентов и без проблем даем рекомендации по улучшению жизни.
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">Исключительное качество работ</h2>
+                    <p>
+                        Для подрядчика всегда существует 2 критерия поведения с клиентами: погоня за деньгами и формирование лояльности. Мы всегда выбираем второй путь и даже самые бюджетные заказы обрабатываем, как для себя, ведь мы понимаем, что залог успеха любого бизнеса
+                        – это счастливый и лояльный клиент. Поэтому, работая с нами, вы можете рассчитывать на высочайшее качество отделочных работ, а также на великолепный уровень сервиса.
+                    </p>
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">Доступные цены</h2>
+                    <p>
+                        Мы всегда стараемся предложить самые оптимальные цены на работы и стройматериалы. Это достигается путем многолетнего партнерства с различными профильными фирмами, благодаря которым, мы можем сделать хорошую скидку на ту или иную услугу. Кроме этого, мы
+                        сами никогда не скупимся побаловать вас сочными предложениями и выгодными акциями.
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">Работаем оперативно и до последнего</h2>
+                    <p>
+                        Мы всегда заранее планируем время исполнения заказа и утверждаем конкретные сроки, на которые вы можете рассчитывать. Если вдруг после сдачи работ обнаруживается какой-нибудь изъян, мы обязательно в кратчайшие сроки устраняем его и еще раз проверяем,
+                        чтобы все работы были выполнены исключительно качественно.
+                    </p>
+
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="exampleModalLongTitle">Расценки</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="rovno" text-align="center">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+
         </div>
-        <div class="collapse navbar-collapse" id="top-menu">
-            <div class="nav-center">
-                <ul class="nav navbar-nav">
-                    <li class="">
-                        <a class="nav-item-style"  href="/" title="#" data-toggle="dropdown" onclick="location.href = this.href">
-                            <i class="fa fa-home fa-fw"></i>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-2">
+                    <div class="logo">
+                        <a href="">
+                            <img src="../../image/logo/logo.png" alt="">
                         </a>
-                    </li>
-                    <li class="first dropdown current">
-                        <a class="nav-item-style dropdown-toggle" href="../../окомпании" title="О компании" onclick="location.href = this.href" data-toggle="dropdown">О компании</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../окомпании/" title="О компании" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">О компании</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/коллектив" title="Коллектив" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Коллектив</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/вакансии" title="Вакансии" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Вакансии</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/партнеры" title="Партнеры" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Партнеры</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../услуги/" title="Услуги" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Услуги</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../услуги/дома" title="Строительство домов" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство домов</a>
-                            </li>
-                            <li>
-                                <a  href="../../услуги/бани" title="Строительство бань" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство бань</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/отделочныеработы" title="Отделочные работы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Отделочные работы</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/cантехническиеработы" title="Сантехнические работы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Сантехнические работы</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/благоустройство" title="Благоустройство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Благоустройство</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../портфолио" title="Портфолио" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Портфолио</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../../портфолио/Дома/" title="Строительство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио" title="./портфолио/" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Ладшафтный дизайн</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио" title="./портфолио/" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Специальные проекты</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../../отзывы/" title="Отзывы" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Отзывы</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../интернет-магазин/" title="Интернет-магазин" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Интернет-магазин</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../интернет-магазин/" title="Каталог товаров" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Каталог товаров</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Корзина" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Корзина</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Оплата" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Оплата</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Доставка" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Доставка</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="last">
-                        <a href="../../контакты/" title="Контакты" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
-
-
-
-<section class="footer">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-2">
-                <div class="logo">
-                    <a href="">
-                        <img src="../../image/logo/logo.png" alt="">
-                    </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="text">ООО «Авквастрой-НН»</div>
+                    <p style="text-align: center; font-size: 16px; color: #828282; padding-top: 20px">Нижний Новгород <br>ул. Мелитопольская, 9</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="" style="padding-top:100px; text-align: center;">
+                        <a href="https://github.com/Nanord" style="color: black" target="_blank">Created by &copy; Nanord <br> 2019</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-7">
-                <div class="text">ООО «Авквастрой-НН»</div>
-                <p style="text-align: center; font-size: 16px; color: #828282; padding-top: 20px">Нижний Новгород <br>ул. Мелитопольская, 9</p>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <div class="" style="padding-top:100px; text-align: center;">
-                    <a href="https://github.com/Nanord" style="color: black" target="_blank">Created by &copy; Nanord <br> 2019</a>
-                </div>
-            </div>
+
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 </body>
 
@@ -182,5 +183,11 @@
 <script src="../../js/bootstrap.min.js"></script>
 <!-- fancyBox JS -->
 <script src="../../js/jquery.fancybox.min.js"></script>
+<script src="../../js/jquery.fittext.js"></script>
+<script src="../../js/script.js"></script>
+<script>
+    jQuery.getNav("Услуги", "../../");
+    jQuery.getTitle();
+</script>
 
 </html>

@@ -1,0 +1,29 @@
+summary {
+    padding: 15px;
+    color: #444;
+    background-color: #D3D4DA;
+    border: 1px solid #D3D4DA;
+    display: block;
+    outline: none;
+    margin: 2px;
+}
+
+summary:hover,
+summary:focus {
+    border: 1px solid lightslategray;
+}
+
+details[open] summary {
+    background-color: lightslategray;
+    border: 1px solid lightslategray;
+}
+
+details[open] {
+    background: #fff;
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}

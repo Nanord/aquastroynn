@@ -1,185 +1,295 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
 
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/jquery.fancybox.min.css">
 
+    <link rel="stylesheet" type="text/css" href="../../css/style_service.css">
+
+    <link rel="stylesheet" type="text/css" href="../../css/style_price.css">
+    <style>
+        span {
+            text-decoration: underline;
+        }
+    </style>
+    <style>
+        .min_nav a {
+            color: #074A02 !important;
+        }
+    </style>
+
 </head>
+
 <body class="table-row">
 
-<section class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="logo"><a href="/"><img src="../../image/logo/logo.png" alt=""></a></div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="text">Строительная компания:<br>ООО «Аквастрой-НН»</div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="contacts">
-                    <p>
-                        <a href="mailto:akvastroynn@mail.ru">
-                            <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                            akvastroynn@mail.ru
-                        </a></p>
-                    <p>
-                        <a href="tel:"><i class="fa fa-phone" aria-hidden="true"></i>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="logo">
+                        <a href="/"><img src="../../image/logo/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="text">Строительная компания:<br>ООО «Аквастрой-НН»</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="contacts">
+                        <p>
+                            <a href="mailto:akvastroynn@mail.ru">
+                                <i class="fa fa-envelope-open" aria-hidden="true"></i> akvastroynn@mail.ru
+                            </a>
+                        </p>
+                        <p>
+                            <a href="tel:"><i class="fa fa-phone" aria-hidden="true"></i>
                             +7 903 056-15-39
                         </a>
-                    </p>
+                        </p>
+                        <p>
+                            <a href="https://vk.com/" target="_blank">
+                                <i class="fab fa-vk"></i> Мы в контакте
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="nav"></div>
+
+    <a name="up"></a>
+
+    <section id="text-font" class="content main">
+
+        <div id="mainContent" class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="min_nav">
+                        <a href="../../">Главная</a>
+                        <span style="text-decoration: none"> → </span>
+                        <a href="../">Услуги</a>
+                        <span style="text-decoration: none"> → </span> Дома
+                    </div>
+                    <br>
+                    <h1 style="text-align: center;font-weight: 600;color: #074A02;margin: 25px 0 20px 0;">Дома</h1>
+                    <div id="title_a"></div>
+                    <br>
+                    <img class="img-thumbnail center-block" src="../../image/portfolio/дома/7.jpg" alt="Изображение главного дома" style="width:1000px;">
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        Подготовительный этап строительства</h2>
                     <p>
-                        <a href="https://vk.com/" target="_blank">
-                            <i class="fab fa-vk"></i>
-                            Мы в контакте
-                        </a>
+                        На этом этапе придется решить несколько важных вопросов: выбрать место для строительства, определить его бюджет, выбрать проект дома, получить разрешение на строительство и выбрать подрядчика. Все вопросы равноценны по значимости, каждому придется уделить
+                        достаточно внимания.
                     </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<nav class="navbar-style navbar-default-style navbar navbar-default" style="margin-top: 30px; margin-bottom: 60px; font-size: 16px; background-color:  #828282; border-color: #cacaca; position: -webkit-sticky; position: sticky; top: 0;">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        Покупка участка</h2>
+                    <p>
+                        При выборе и покупке земли под новый дом обращают внимание как на юридические, так и на практические нюансы. Процедура сопровождается оформлением множества документов, поэтому целесообразно привлечь проверенного посредника – риелтора или юриста. Определиться
+                        с тем, как правильно построить дом, невозможно без детального осмотра участка, на котором будут проводиться работы, а в идеальном варианте все начинаются с поиска земли для строительства. Так как комфорт будущей жизни напрямую
+                        зависит от местоположения участка, то при выборе последнего руководствуются несколькими критериями:
+                        <img class="img-thumbnail pull-right img-text" src="../../image/portfolio/дома/5.jpg" alt="Изображение главного дома" style="width:500px;">
+
+                        <ul>
+                            <li><b>Особенности участка.</b>Во внимание принимается не только площадь, но и рельеф. Участок на склоне потребует дополнительных финансовых вложений для планировочных и земляных работ, сооружения подпорных стенок.</li>
+                            <li><b>Документы владельца (продавца).</b> Необходимо удостовериться в их подлинности и в правильности заполнения (в приведенных размерах).</li>
+                            <li><b>Расположение.</b> Учитывается близость к цивилизации, качество подъездных дорог, наличие остановок общественного транспорта, экологическая ситуация (расположенные поблизости вредные производства). Важно разузнать, не расположено
+                                ли неподалеку болото, очистные сооружения или мусорная свалка.</li>
+                            <li><b>Инфраструктура. </b> Оценивается наличие инженерных коммуникаций (подробную информацию лучше получить в управляющей компании)</li>
+                            <li><b>Дополнительные возможные траты.</b> Возможно, на участке имеются обветшалые капитальные постройки, подлежащие сносу, или высоко проходят грунтовые воды, а значит, придется обустраивать эффективную дренажную систему.</li>
+                        </ul>
+                        Эту и прочую полезную информацию можно получить от владельцев соседних земельных участков, а также в администрации населенного пункта. Опытные, знающие как правильно построить частный дом, специалисты советуют сделать запрос в соответствующие учреждения
+                        о возможности подключения к существующим инженерным сетям. В противном случае неожиданный запрет станет серьезной проблемой.
+                        <img class="img-thumbnail center-block" src="../../image/service/doma/1.jpg" alt="Изображение главного дома" style="width:800px;"> Когда место для строительства дома окончательно выбрано, проводят мероприятия, облегчающие работы:
+                        <ul>
+                            <li>Выполняются геологические и геодезические изыскания, топографическая съемка местности. Результатом станет информация о составе почвы и глубине залегания грунтовых вод, которая поможет адаптировать фундамент типового проекта
+                                под конкретные условия. Если на земле есть начатое строительство, придется привязываться к существующему фундаменту и, возможно, его усиливать.</li>
+                            <li>После покупки участок огораживается.</li>
+                            <li>Чтобы не загрязнить большую часть земли строительными отходами, необходимо определить место для складирования мусора, замешивания бетона, сжигания отходов, а также доступ строительной техники.</li>
+                        </ul>
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        Из чего строить дом</h2>
+                    <p>
+                        Выбор подходящего материала — тема для отдельного обстоятельного разговора. Любой материал, будь то кирпич, дерево, сэндвич-панели, пено- или газобетон, обладает набором индивидуальных свойств. Эти качества могут проявиться как с положительной, так и
+                        с отрицательной стороны, что зависит от контекста использования.
+                        <br> При выборе материала решающими факторами являются местные условия (климат, рельеф) и экономические аргументы. Последние часто конфликтуют с желанием сделать дом комфортным, надежным и экологически безопасным. Необходимо помнить,
+                        что любой дом нуждается в продуманном утеплении, надежной крыше и современном инженерном обеспечении.
+                        <br> В целом дешевле и быстрее возводятся блочные (из ячеистого бетона) и каркасные дома (включая СИП-панели). Меньше всего времени (1-2 дня) уйдет на установку модульного дома, но это не самый бюджетный вариант.
+                    </p>
+
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        Расходы на строительство</h2>
+                    <p>
+                        Такое понятное желание сэкономить не оправдывает себя при возведении дома, так как чаще всего ведет к увеличению расходов в будущем. Поэтапное строительство дома предполагает подробный предварительный расчет сметы; ее лучше составлять вместе с прорабом.
+                        После возведения стен и крыши расходы на инженерное обеспечение здания могут показаться неоправданно большими, но сокращать их без веских причин не рекомендуется.
+                        <img class="img-thumbnail center-block" src="../../image/portfolio/дома/6.JPG" alt="Изображение главного дома" style="width:800px;">
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        Подготовка проекта и его привязка к местности</h2>
+                    <p>
+                        По многим параметрам типовой проект является самым выгодным вариантом (если сравнивать с самостроем и индивидуальным проектом). Он позволяет сразу приступить к строительству, не задерживаясь на проектировочных работах.
+                        <br> Оптимальной будет покупка у фирмы или строительной компании с солидными рекомендациями и гарантиями. Скачанная в интернете версия в итоге может обойтись дороже. Выбирая проект, владельцы отталкиваются от условий и способа
+                        своей жизни, определяя важные параметры будущего дома:
+                        <ul>
+                            <li>Нужен ли второй этаж. Расходы на фундаментные и кровельные работы для двухэтажного дома меньше, к тому же можно увеличить площадь для цветника или беседки.</li>
+                            <li>Форма крыши. </li>
+                            <li>Количество комнат и их площадь (зависит от того, сколько постоянных жильцов и как часто планируется прием гостей).</li>
+                            <li>Возможно предусматривается строительство дома с баней</li>
+                            <li>Высота помещений (для жилых этажей – от 3 м).</li>
+                        </ul>
+                        <ul>
+                            <li>Размер гостиной, кухни, подсобных помещений.</li>
+                            <li>Количество санузлов.</li>
+                            <li>Дополнительные помещения: сауна, гардеробные комнаты, гараж.</li>
+                            <li>Внутренняя отделка (готовится дизайнерский проект).</li>
+                            <li>Дополнительные удобства (умывальник в гараже).</li>
+                        </ul>
+
+                        После согласования всех деталей осуществляют привязку проекта к местности. Во время этого этапа выбирается оптимальное положение строения на участке.
+                    </p>
+                    <img class="img-thumbnail center-block" src="../../image/portfolio/дома/4.JPG" alt="Изображение главного дома" style="width:800px;">
+
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Необходимость ландшафтного дизайна</h2>
+                    <p>
+                        Цель ландшафтной планировки — превращение участка в территорию, максимально соответствующую запросам семьи. Обустройство, выполненное специалистами, позволит решить несколько задач:
+                        <ul>
+                            <li>Выбрать место для дома, хозяйственных помещений, зоны отдыха, сада и огорода. При этом учитывается освещенность, состав почвы, форма участка и пролегание грунтовых вод.</li>
+                            <li>Определить место для прокладки инженерных коммуникаций; при необходимости проектируется место для септика.</li>
+                            <li>Обыграть сложный рельеф и, возможно, изменить его.</li>
+                            <li>Предусмотреть дренаж почвы.</li>
+                            <li>Выбрать стиль оформления участка и создать неповторимый дизайн.</li>
+                            <li>Подобрать полезные и декоративные растения, подходящие для выращивания в данных условиях.</li>
+                        </ul>
+                    </p>
+
+
+                    <img class="img-thumbnail center-block" src="../../image/portfolio/благоустройство/10.JPG" alt="Изображение главного дома" style="width:1000px;">
+
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Возведение дома</h2>
+                    <p>
+                        Зная, с чего начать строить дом на участке, можно продумать последующие этапы строительства частного дома и не волноваться о сорванных сроках. Перед началом работ необходимо обеспечить подъездные пути, подачу воды и электроэнергии на стройплощадку. На
+                        этом этапе оси здания уже вынесены на участок в соответствии с пожарными и санитарными нормами. Возведение частного дома проходит несколько этапов.
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Земляные работы, фундамент</h2>
+                    <p>
+                        Намечается место входа водопровода и вывода канализации, роются для них траншеи, прокладываются и утепляются трубы. Закладывается фундамент. Для этого роется котлован, на дно укладывается подушка из щебня, устанавливается опалубка. После монтажа арматуры
+                        заливается бетон.
+                        <br> Чтобы бетон набрал прочность, потребуется от 20 до 30 дней. Это время можно посвятить устройству септика или колодца. Затем возводят стены фундамента.
+                        <img class="img-thumbnail pull-right img-text" src="../../image/portfolio/благоустройство/1.JPG" alt="Изображение главного дома" style="width:400px;">
+                    </p>
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Возведение каркаса дома</h2>
+                    <p>
+                        На этом этапе строят стены и монтируют перекрытия, затем сооружают стропила и укладывают кровлю. В последнюю очередь вставляют окна и устанавливают гаражные ворота и входную дверь.
+                    </p>
+
+
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Отделка фасада и первичные внутренние работы</h2>
+                    <p>
+                        Сюда включают наружную отделку стен, установку балкона и лестницы (если предусмотрены проектом). Далее проводят внутреннее утепление пола и стен, первичную отделку стен, монтируют полы, обшивают потолок. Одновременно прокладывают инженерные сети (канализацию,
+                        водопровод и электропроводку).
+                        <br> После этого здание можно застраховать как объект незавершенного строительства. До финишной отделки стен монтируют систему кондиционирования и теплые полы.
+                        <img src="" alt="">
+
+                    </p>
+                    <h2 style="color: #074A02;margin: 25px 0 20px 0;">
+                        </a>Заключение – окончательное обустройство</h2>
+                    <p>
+                        Этап включает завершение внутренней отделки, установку кухни и сантехоборудования, приведение в порядок территории. После завершения работ владелец с подрядчиком подписывают акт сдачи-приемки работ с указанием гарантии на выполненные работы. Далее постройку
+                        необходимо зарегистрировать в ГАСН (Государственный архитектурно-строительный надзор) и в Госрегистре.
+                        <br> Возведение собственного дома — волнительный период в жизни семьи. Путь от утверждения архитектурного плана до новоселья будет вспоминаться долгие годы. Это обязательно будут приятные воспоминания, если грамотно выбрать строительную
+                        компанию, специалисты которой помогут с правильным выбором участка и проекта, плюс, составят продуманный план строительства.
+                        <img class="img-thumbnail center-block" src="../../image/portfolio/дома/8.jpg" alt="Изображение главного дома" style="width:1000px;">
+
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
+                            Расценки
+                        </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="exampleModalLongTitle">Расценки</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="rovno" text-align="center">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#up">Наверх</a>
+                </div>
+
+            </div>
+
         </div>
-        <div class="collapse navbar-collapse" id="top-menu">
-            <div class="nav-center">
-                <ul class="nav navbar-nav">
-                    <li class="">
-                        <a class="nav-item-style"  href="/" title="#" data-toggle="dropdown" onclick="location.href = this.href">
-                            <i class="fa fa-home fa-fw"></i>
+
+    </section>
+
+
+
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-2">
+                    <div class="logo">
+                        <a href="">
+                            <img src="../../image/logo/logo.png" alt="">
                         </a>
-                    </li>
-                    <li class="first dropdown current">
-                        <a class="nav-item-style dropdown-toggle" href="../../окомпании" title="О компании" onclick="location.href = this.href" data-toggle="dropdown">О компании</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../окомпании/" title="О компании" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">О компании</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/коллектив" title="Коллектив" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Коллектив</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/вакансии" title="Вакансии" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Вакансии</a>
-                            </li>
-                            <li>
-                                <a href="../../окомпании/партнеры" title="Партнеры" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Партнеры</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../услуги/" title="Услуги" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Услуги</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../услуги/дома" title="Строительство домов" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство домов</a>
-                            </li>
-                            <li>
-                                <a  href="../../услуги/бани" title="Строительство бань" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Строительство бань</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/отделочныеработы" title="Отделочные работы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Отделочные работы</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/cантехническиеработы" title="Сантехнические работы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Сантехнические работы</a>
-                            </li>
-                            <li>
-                                <a href="../../услуги/благоустройство" title="Благоустройство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Благоустройство</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../портфолио" title="Портфолио" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Портфолио</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../../портфолио/дома/" title="дома" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Дома</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио/бани/" title="бани" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Бани</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио/благоустройство" title="благоустройство" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Благоустройство</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио/заборы" title="заборы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Заборы</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио/сантехническиеработы" title="Сантехнические работы" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Сантехнические работы</a>
-                            </li>
-                            <li>
-                                <a href="../../портфолио/септики" title="септики" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Септики</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../../отзывы/" title="Отзывы" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Отзывы</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="../../интернет-магазин/" title="Интернет-магазин" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Интернет-магазин</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="../../интернет-магазин/" title="Каталог товаров" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Каталог товаров</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Корзина" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Корзина</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Оплата" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Оплата</a>
-                            </li>
-                            <li>
-                                <a href="../../интернет-магазин/" title="Доставка" data-toggle="dropdown" class="dropdown-toggle dropdown-style" onclick="location.href = this.href">Доставка</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="last">
-                        <a href="../../контакты/" title="Контакты" onclick="location.href = this.href" class="nav-item-style dropdown-toggle">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
-
-
-
-<section class="footer">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-2">
-                <div class="logo">
-                    <a href="">
-                        <img src="../../image/logo/logo.png" alt="">
-                    </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="text">ООО «Авквастрой-НН»</div>
+                    <p style="text-align: center; font-size: 16px; color: #828282; padding-top: 20px">Нижний Новгород <br>ул. Мелитопольская, 9</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="" style="padding-top:100px; text-align: center;">
+                        <a href="https://github.com/Nanord" style="color: black" target="_blank">Created by &copy; Nanord <br> 2019</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-7">
-                <div class="text">ООО «Авквастрой-НН»</div>
-                <p style="text-align: center; font-size: 16px; color: #828282; padding-top: 20px">Нижний Новгород <br>ул. Мелитопольская, 9</p>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <div class="" style="padding-top:100px; text-align: center;">
-                    <a href="https://github.com/Nanord" style="color: black" target="_blank">Created by &copy; Nanord <br> 2019</a>
-                </div>
-            </div>
+
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 </body>
 
@@ -191,5 +301,11 @@
 <script src="../../js/bootstrap.min.js"></script>
 <!-- fancyBox JS -->
 <script src="../../js/jquery.fancybox.min.js"></script>
+<script src="../../js/jquery.fittext.js"></script>
+<script src="../../js/script.js"></script>
+<script>
+    jQuery.getNav("Услуги", "../../");
+    jQuery.getTitle();
+</script>
 
 </html>
