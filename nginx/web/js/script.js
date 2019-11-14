@@ -136,6 +136,22 @@
                 break
             }
         }
+
+        var head = document.getElementsByTagName("head");
+        console.log(head);
+        var logo = document.createElement("link");
+        var rel = document.createAttribute("rel");
+        rel.value = "shortcut icon";
+        var type = document.createAttribute("type");
+        type.value = "image/ico";
+        var hrefLogo = document.createAttribute("href");
+        hrefLogo.value = path + "image/favicon/logo.ico";
+        logo.setAttributeNode(rel);
+        logo.setAttributeNode(type);
+        logo.setAttributeNode(hrefLogo);
+        head[0].appendChild(logo);
+
+
         pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + 180
         $(window).scroll(function() {
             //if you hard code, then use console
