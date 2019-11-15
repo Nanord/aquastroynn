@@ -1,13 +1,13 @@
 (function($) {
     $.getNav = function(name, path) {
-        console.log(name, path)
-        name.replace("//", "/")
-        var parent = document.getElementById("nav")
-        var nav = document.createElement("nav")
-        nav.id = "nav_bar"
-        nav.className = "navbar-style navbar-default-style navbar navbar-default sticky-menu "
+        console.log(name, path);
+        name.replace("//", "/");
+        var parent = document.getElementById("nav");
+        var nav = document.createElement("nav");
+        nav.id = "nav_bar";
+        nav.className = "navbar-style navbar-default-style navbar navbar-default sticky-menu ";
             //nav.style = "margin-top: 30px; margin-bottom: 60px; font-size: 16px; background-color:  #828282; border-color: #cacaca; position: -webkit-sticky; position: sticky; top: 0;"
-        nav.style = "font-size: 16px; background-color:  #828282; border-color: #cacaca;"
+        nav.style = "font-size: 16px; background-color:  #828282; border-color: #cacaca;";
         nav.innerHTML = "<div class=\"container\">\n" +
             "            <div class=\"navbar-header\">\n" +
             "                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#top-menu\">\n" +
@@ -31,9 +31,9 @@
             "                                <li>\n" +
             "                                    <a href=\"" + path + "окомпании/\" title=\"О компании\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">О компании</a>\n" +
             "                                </li>\n" +
-            "                                <li>\n" +
-            "                                    <a href=\"" + path + "окомпании/коллектив/\" title=\"Коллектив\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Коллектив</a>\n" +
-            "                                </li>\n" +
+            // "                                <li>\n" +
+            // "                                    <a href=\"" + path + "окомпании/коллектив/\" title=\"Коллектив\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Коллектив</a>\n" +
+            // "                                </li>\n" +
             "                                <li>\n" +
             "                                    <a href=\"" + path + "окомпании/вакансии/\" title=\"Вакансии\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Вакансии</a>\n" +
             "                                </li>\n" +
@@ -152,13 +152,13 @@
         head[0].appendChild(logo);
 
 
-        pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + 180
+        pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + 180;
         $(window).scroll(function() {
             //if you hard code, then use console
             //.log to determine when you want the
             //nav bar to stick.
             //pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + (document.documentElement.clientHeight / 8);
-            pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + 180
+            pos = document.getElementsByClassName("header")[0].getBoundingClientRect().bottom + 180;
             if ($(window).scrollTop() > pos) {
 
                 nav.style = "position: fixed; top: 0; width:100%; font-size: 16px; background-color:  #828282; border-color: #cacaca;"
@@ -191,15 +191,15 @@
     $.getTitle = function() {
         console.log("TITLE");
         var mainContent = document.getElementById("mainContent");
-        var h2List = mainContent.getElementsByTagName("h2")
+        var h2List = mainContent.getElementsByTagName("h2");
 
-        var ol = document.createElement("ol")
+        var ol = document.createElement("ol");
         ol.id = "menu";
         ol.className = "rectangle";
         ol.style = "list-style: outside none;";
 
-        var liRascenci = document.createElement("li")
-        var aRascenci = document.createElement("a")
+        var liRascenci = document.createElement("li");
+        var aRascenci = document.createElement("a");
 
         var attrRascenci = document.createAttribute("name");
         var atrDatat = document.createAttribute("data-toggle");
