@@ -6,10 +6,11 @@
     <title>Main</title>
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
 
-    <link rel="stylesheet" type="text/css" href="../../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.min.css">
 
 </head>
 
@@ -20,7 +21,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="logo">
-                        <a href="/"><img src="../../image/logo/logo.png" alt=""></a>
+                        <a href="/"><img src="../image/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -50,13 +51,8 @@
     </section>
 
     <div id="nav"></div>
+    <div class="main"></div>
 
-    <div class="container">
-        <h1 style="text-align: center;font-weight: 600;color: #074A02;margin: 25px 0 20px 0;">Сантехнические работы:</h1>
-        <br>
-        <div class="row" id="parent">
-        </div>
-    </div>
 
     <section class="footer">
 
@@ -65,7 +61,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-2">
                     <div class="logo">
                         <a href="">
-                            <img src="../../image/logo/logo.png" alt="">
+                            <img src="../image/logo/logo.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -87,18 +83,21 @@
 </body>
 
 <!-- fa -->
-<script type="text/javascript" src="../../js/fa.js"></script>
+<script type="text/javascript" src="../js/fa.js"></script>
 <!-- jQuery -->
-<script src="../../js/jquery-3.2.1.min.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap JS -->
-<script src="../../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <!-- fancyBox JS -->
-<script src="../../js/jquery.fancybox.min.js"></script>
-<script src="../../js/jquery.lazyloadxt.min.js"></script>
-<script src="../../js/script.js"></script>
+<script src="../js/jquery.fancybox.min.js"></script>
+<script src="../js/jquery.fittext.js"></script>
+<script src="../js/script.js"></script>
 <script>
-    jQuery.getNav("Портфолио", "../../");
-    jQuery.getImg("сантехническиеработы", 21);
+    jQuery("#text-font").fitText(1, {
+        minFontSize: '14px',
+        maxFontSize: '16px'
+    });
+    jQuery.getNav("Интернет-магазин", "../");
 </script>
 
 </html>

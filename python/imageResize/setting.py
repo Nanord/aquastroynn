@@ -1,0 +1,1 @@
+d = "C:\\Project\\aquastroynn\\nginx\\web\\image\\service\\bani"

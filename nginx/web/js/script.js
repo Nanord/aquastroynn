@@ -81,7 +81,7 @@
             "                                    <a href=\"" + path + "портфолио/заборы/\" title=\"заборы\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Заборы</a>\n" +
             "                                </li>\n" +
             "                                <li>\n" +
-            "                                    <a href=\"" + path + "портфолио/сантехническиеработы/\" title=\"Сантехнические работы\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Сантехнические работы</a>\n" +
+            "                                    <a href=\"" + path + "портфолио/котельные/\" title=\"Сантехнические работы\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Сантехнические работы</a>\n" +
             "                                </li>\n" +
             "                                <li>\n" +
             "                                    <a href=\"" + path + "портфолио/септики/\" title=\"септики\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Септики</a>\n" +
@@ -89,24 +89,24 @@
             "                            </ul>\n" +
             "                        </li>\n" +
             "                        <li class=\"dropdown\">\n" +
-            "                            <a href=\"" + path + "отзывы/\" title=\"Отзывы\" onclick=\"location.href = this.href\" class=\"nav-item-style dropdown-toggle\">Отзывы</a>\n" +
+            "                            <a href=\"" + path + "расценки/\" title=\"Расценки\" onclick=\"location.href = this.href\" class=\"nav-item-style dropdown-toggle\">Расценки</a>\n" +
             "                        </li>\n" +
             "                        <li class=\"dropdown\">\n" +
-            "                            <a href=\"" + path + "интернет-магазин/\" title=\"Интернет-магазин\" onclick=\"location.href = this.href\" class=\"nav-item-style dropdown-toggle\">Интернет-магазин</a>\n" +
-            "                            <ul class=\"dropdown-menu\">\n" +
-            "                                <li>\n" +
-            "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Каталог товаров\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Каталог товаров</a>\n" +
-            "                                </li>\n" +
-            "                                <li>\n" +
-            "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Корзина\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Корзина</a>\n" +
-            "                                </li>\n" +
-            "                                <li>\n" +
-            "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Оплата\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Оплата</a>\n" +
-            "                                </li>\n" +
-            "                                <li>\n" +
-            "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Доставка\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Доставка</a>\n" +
-            "                                </li>\n" +
-            "                            </ul>\n" +
+            "                            <a href=\"" + path + "нашизаказчики/\" title=\"Наши заказчики\" onclick=\"location.href = this.href\" class=\"nav-item-style dropdown-toggle\">Наши заказчики</a>\n" +
+            // "                            <ul class=\"dropdown-menu\">\n" +
+            // "                                <li>\n" +
+            // "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Каталог товаров\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Каталог товаров</a>\n" +
+            // "                                </li>\n" +
+            // "                                <li>\n" +
+            // "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Корзина\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Корзина</a>\n" +
+            // "                                </li>\n" +
+            // "                                <li>\n" +
+            // "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Оплата\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Оплата</a>\n" +
+            // "                                </li>\n" +
+            // "                                <li>\n" +
+            // "                                    <a href=\"" + path + "интернет-магазин/\" title=\"Доставка\" data-toggle=\"dropdown\" class=\"dropdown-toggle dropdown-style\" onclick=\"location.href = this.href\">Доставка</a>\n" +
+            // "                                </li>\n" +
+            // "                            </ul>\n" +
             "                        </li>\n" +
             "                        <li id=\"lastNav\" class=\"last\">\n" +
             "                            <a href=\"" + path + "контакты/\" title=\"Контакты\" onclick=\"location.href = this.href\" class=\"nav-item-style dropdown-toggle\">Контакты</a>\n" +
